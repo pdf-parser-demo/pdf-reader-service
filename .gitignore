@@ -1,0 +1,29 @@
+# ---- Entorno virtual ----
+venv/
+ENV/
+env/
+
+# ---- Carpetas generadas ----
+__pycache__/
+uploads/
+tmp/
+logs/
+
+# ---- Archivos del sistema ----
+.DS_Store
+Thumbs.db
+
+# ---- Archivos de Python ----
+*.pyc
+*.pyo
+*.pyd
+
+# ---- Uvicorn reload artifacts ----
+*.reload
+
+# ---- Configuración de VSCode ----
+.vscode/
+
+# ---- Archivos de depuración/entorno ----
+*.env
+*.log
